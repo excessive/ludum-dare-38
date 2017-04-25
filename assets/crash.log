@@ -1,0 +1,1553 @@
+Please report this on GitHub at https://github.com/excessive/ludum-dare-38 or
+send a DM on Twitter to @LandonManning or @shakesoda.
+
+=========================
+== 2017-04-22 01:38:09 ==
+=========================
+
+Error: src/systems/player-controller.lua:376: attempt to index field 'position' (a nil value)
+stack traceback:
+	src/systems/player-controller.lua:376: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:76: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 01:43:35 ==
+=========================
+
+Error: src/scenes/play.lua:11: attempt to index global 'load' (a function value)
+stack traceback:
+	src/scenes/play.lua:11: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 02:24:17 ==
+=========================
+
+Error: src/utils/load-files.lua:4: module 'patchy' not found:
+	no field package.preload['patchy']
+	no 'patchy' in LOVE game directories.
+	no file 'patchy.so' in LOVE paths.
+	no file './patchy.lua'
+	no file '/usr/share/luajit-2.0.4/patchy.lua'
+	no file '/usr/local/share/lua/5.1/patchy.lua'
+	no file '/usr/local/share/lua/5.1/patchy/init.lua'
+	no file '/usr/share/lua/5.1/patchy.lua'
+	no file '/usr/share/lua/5.1/patchy/init.lua'
+	no file './patchy.so'
+	no file '/usr/local/lib/lua/5.1/patchy.so'
+	no file '/usr/lib64/lua/5.1/patchy.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	src/utils/load-files.lua:4: in main chunk
+	[C]: in function 'require'
+	src/scenes/play.lua:4: in main chunk
+	[C]: in function 'require'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 02:25:31 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:314: __add: Wrong argument type for left hand operand. (<cpml.vec3> expected)
+stack traceback:
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:314: in function '__add'
+	src/systems/player-controller.lua:348: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:95: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 02:41:31 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:340: attempt to perform arithmetic on a nil value
+stack traceback:
+	libs/cpml/modules/mat4.lua:340: in function 'translate'
+	src/utils/load-files.lua:79: in function 'add_triangles'
+	src/utils/load-files.lua:123: in function 'callable'
+	libs/memoize.lua:57: in function 'map'
+	src/scenes/play.lua:14: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 04:15:02 ==
+=========================
+
+Error: src/scenes/play.lua:57: attempt to call method 'listen' (a table value)
+stack traceback:
+	src/scenes/play.lua:57: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 04:15:33 ==
+=========================
+
+Error: src/scenes/play.lua:61: attempt to call method 'listen' (a table value)
+stack traceback:
+	src/scenes/play.lua:61: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 05:38:39 ==
+=========================
+
+Error: src/systems/collision.lua:39: attempt to perform arithmetic on local 'p2' (a nil value)
+stack traceback:
+	src/systems/collision.lua:39: in function 'cc_hit'
+	src/systems/collision.lua:58: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:200: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 05:39:39 ==
+=========================
+
+Error: src/systems/collision.lua:40: attempt to index local 'direction' (a number value)
+stack traceback:
+	src/systems/collision.lua:40: in function 'cc_hit'
+	src/systems/collision.lua:58: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:200: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 05:40:23 ==
+=========================
+
+Error: src/systems/collision.lua:41: attempt to index local 'direction' (a number value)
+stack traceback:
+	src/systems/collision.lua:41: in function 'cc_hit'
+	src/systems/collision.lua:59: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:200: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 05:41:32 ==
+=========================
+
+Error: src/systems/collision.lua:65: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'pairs'
+	src/systems/collision.lua:65: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:200: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 05:43:28 ==
+=========================
+
+Error: src/systems/collision.lua:41: attempt to index local 'direction' (a number value)
+stack traceback:
+	src/systems/collision.lua:41: in function 'cc_hit'
+	src/systems/collision.lua:59: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:203: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 05:52:24 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:815: __mul: Wrong argument type for left hand operand. (<cpml.mat4> expected)
+stack traceback:
+	[C]: in function 'assert'
+	libs/cpml/modules/mat4.lua:815: in function '__mul'
+	src/scenes/play.lua:43: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:204: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 07:22:31 ==
+=========================
+
+Error: src/systems/world-collision.lua:117: attempt to index field 'position' (a nil value)
+stack traceback:
+	src/systems/world-collision.lua:117: in function 'process'
+	src/systems/world-collision.lua:14: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:188: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 07:22:40 ==
+=========================
+
+Error: src/systems/world-collision.lua:117: attempt to index field 'position' (a nil value)
+stack traceback:
+	src/systems/world-collision.lua:117: in function 'process'
+	src/systems/world-collision.lua:14: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:188: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 07:22:48 ==
+=========================
+
+Error: src/systems/world-collision.lua:117: attempt to index field 'position' (a nil value)
+stack traceback:
+	src/systems/world-collision.lua:117: in function 'process'
+	src/systems/world-collision.lua:14: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:188: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 07:22:57 ==
+=========================
+
+Error: src/systems/world-collision.lua:117: attempt to index field 'position' (a nil value)
+stack traceback:
+	src/systems/world-collision.lua:117: in function 'process'
+	src/systems/world-collision.lua:14: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:188: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:18:41 ==
+=========================
+
+Error: Syntax error: main.lua:82: ')' expected near '}'
+
+stack traceback:
+	[C]: at 0x7fb9027d3660
+	[C]: in function 'require'
+	[string "boot.lua"]:429: in function <[string "boot.lua"]:275>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:19:08 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/cutscene.lua:21: bad argument #1 to 'draw' (Drawable expected, got nil)
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/cutscene.lua:19: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:19:48 ==
+=========================
+
+Error: libs/timer.lua:48: libs/gamestate.lua:53: Can't call switch with colon operator
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:84: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:20:11 ==
+=========================
+
+Error: src/systems/render.lua:325: attempt to index field 'views' (a nil value)
+stack traceback:
+	src/systems/render.lua:325: in function 'draw'
+	src/scenes/play.lua:208: in function 'draw'
+	main.lua:122: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:20:23 ==
+=========================
+
+Error: src/systems/render.lua:325: attempt to index field 'views' (a nil value)
+stack traceback:
+	src/systems/render.lua:325: in function 'draw'
+	src/scenes/play.lua:208: in function 'draw'
+	main.lua:122: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:21:08 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/cutscene.lua:24: attempt to perform arithmetic on field 'duration' (a nil value)
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/cutscene.lua:19: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:21:25 ==
+=========================
+
+Error: src/systems/render.lua:325: attempt to index field 'views' (a nil value)
+stack traceback:
+	src/systems/render.lua:325: in function 'draw'
+	src/scenes/play.lua:208: in function 'draw'
+	main.lua:122: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:25:23 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/cutscene.lua:22: attempt to perform arithmetic on global 'buffer' (a nil value)
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/cutscene.lua:21: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:26:36 ==
+=========================
+
+Error: src/systems/render.lua:325: attempt to index field 'views' (a nil value)
+stack traceback:
+	src/systems/render.lua:325: in function 'draw'
+	src/scenes/play.lua:208: in function 'draw'
+	main.lua:122: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:27:00 ==
+=========================
+
+Error: src/systems/render.lua:325: attempt to index field 'views' (a nil value)
+stack traceback:
+	src/systems/render.lua:325: in function 'draw'
+	src/scenes/play.lua:208: in function 'draw'
+	main.lua:122: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:28:48 ==
+=========================
+
+Error: src/systems/render.lua:325: attempt to index field 'views' (a nil value)
+stack traceback:
+	src/systems/render.lua:325: in function 'draw'
+	src/scenes/play.lua:208: in function 'draw'
+	main.lua:122: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:34:57 ==
+=========================
+
+Error: src/systems/render.lua:325: attempt to index field 'views' (a nil value)
+stack traceback:
+	src/systems/render.lua:325: in function 'draw'
+	src/scenes/play.lua:208: in function 'draw'
+	main.lua:122: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:38:38 ==
+=========================
+
+Error: src/scenes/choice.lua:11: attempt to index global 'timer' (a nil value)
+stack traceback:
+	src/scenes/choice.lua:11: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:39:46 ==
+=========================
+
+Error: libs/timer.lua:48: libs/tiny.lua:465: System already belongs to a World.
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:41: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:42:44 ==
+=========================
+
+Error: libs/timer.lua:48: libs/tiny.lua:465: System already belongs to a World.
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:41: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:46:34 ==
+=========================
+
+Error: src/scenes/choice.lua:204: attempt to index field 'world' (a nil value)
+stack traceback:
+	src/scenes/choice.lua:204: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 08:54:54 ==
+=========================
+
+Error: src/systems/render.lua:325: attempt to index field 'views' (a nil value)
+stack traceback:
+	src/systems/render.lua:325: in function 'draw'
+	src/scenes/play.lua:211: in function 'draw'
+	main.lua:118: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:13:43 ==
+=========================
+
+Error: libs/timer.lua:48: libs/timer.lua:93: libs/timer.lua:139: attempt to index local 'subject' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/choice.lua:106: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:16:20 ==
+=========================
+
+Error: libs/timer.lua:48: Syntax error: src/scenes/cutscene.lua:21: 'then' expected near 'the'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/choice.lua:106: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:39:03 ==
+=========================
+
+Error: libs/gamestate.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'error'
+	libs/gamestate.lua:31: in function '__index'
+	src/scenes/play.lua:119: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:39:41 ==
+=========================
+
+Error: libs/gamestate.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'error'
+	libs/gamestate.lua:31: in function '__index'
+	src/scenes/play.lua:120: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:40:53 ==
+=========================
+
+Error: src/scenes/cutscene.lua:55: attempt to index global 'load' (a function value)
+stack traceback:
+	src/scenes/cutscene.lua:55: in function 'draw'
+	main.lua:118: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:41:16 ==
+=========================
+
+Error: libs/gamestate.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'error'
+	libs/gamestate.lua:31: in function '__index'
+	src/scenes/play.lua:120: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:42:46 ==
+=========================
+
+Error: libs/gamestate.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'error'
+	libs/gamestate.lua:31: in function '__index'
+	src/scenes/play.lua:120: in function 'switch'
+	main.lua:81: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:43:10 ==
+=========================
+
+Error: src/scenes/play.lua:272: attempt to index field 'subtitle' (a nil value)
+stack traceback:
+	src/scenes/play.lua:272: in function 'draw'
+	main.lua:118: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 21:45:55 ==
+=========================
+
+Error: src/utils/load-files.lua:44: bad argument #1 to 'newImage' (ImageData expected, got Image)
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:44: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:56: in function 'draw'
+	main.lua:119: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 22:04:03 ==
+=========================
+
+Error: src/scenes/choice.lua:27: attempt to index field 'world' (a nil value)
+stack traceback:
+	src/scenes/choice.lua:27: in function 'switch'
+	main.lua:90: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 22:07:40 ==
+=========================
+
+Error: main.lua:102: attempt to index field 'imgui' (a nil value)
+stack traceback:
+	main.lua:102: in function <main.lua:100>
+	libs/gamestate.lua:89: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 22:09:38 ==
+=========================
+
+Error: src/utils/load-files.lua:44: bad argument #1 to 'newImage' (ImageData expected, got nil)
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:44: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:59: in function 'draw'
+	main.lua:133: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 22:10:33 ==
+=========================
+
+Error: libs/timer.lua:48: libs/gamestate.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:54: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 22:14:17 ==
+=========================
+
+Error: src/scenes/cutscene.lua:64: bad argument #1 to 'getWidth' (string expected, got nil)
+stack traceback:
+	[C]: in function 'getWidth'
+	src/scenes/cutscene.lua:64: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:371: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 22:15:35 ==
+=========================
+
+Error: libs/timer.lua:48: libs/gamestate.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:54: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 22:16:02 ==
+=========================
+
+Error: libs/timer.lua:48: libs/gamestate.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:54: in function 'update'
+	conf.lua:369: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:02:21 ==
+=========================
+
+Error: src/scenes/choice.lua:40: attempt to index global 'load' (a function value)
+stack traceback:
+	src/scenes/choice.lua:40: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:06:29 ==
+=========================
+
+Error: src/utils/load-files.lua:44: Could not open file assets/cutscenes/choice-butts.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:44: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:56: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:07:27 ==
+=========================
+
+Error: src/utils/load-files.lua:44: Could not open file assets/cutscenes/choice-butts.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:44: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:56: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:11:05 ==
+=========================
+
+Error: src/utils/load-files.lua:44: Could not open file assets/cutscenes/choice-butts.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:44: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:56: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:14:25 ==
+=========================
+
+Error: libs/i18n.lua:54: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:54: in function 'load'
+	src/scenes/choice.lua:36: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:15:32 ==
+=========================
+
+Error: src/utils/load-files.lua:44: Could not open file assets/cutscenes/choice-butts.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:44: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:56: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:45:45 ==
+=========================
+
+Error: src/utils/load-files.lua:44: Could not open file assets/cutscenes/betts.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:44: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:56: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:46:33 ==
+=========================
+
+Error: src/utils/load-files.lua:44: Could not open file assets/cutscenes/bitts.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:44: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:56: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:53:26 ==
+=========================
+
+Error: src/scenes/choice.lua:117: attempt to concatenate local 'choice' (a table value)
+stack traceback:
+	src/scenes/choice.lua:117: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:53:50 ==
+=========================
+
+Error: libs/gamestate.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'error'
+	libs/gamestate.lua:31: in function '__index'
+	src/scenes/choice.lua:78: in function <src/scenes/choice.lua:48>
+	conf.lua:332: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-22 23:55:27 ==
+=========================
+
+Error: src/ui/gamestate.lua:10: bad argument #2 to 'SliderInt' (number expected, got nil)
+stack traceback:
+	[C]: in function 'SliderInt'
+	src/ui/gamestate.lua:10: in function <src/ui/gamestate.lua:3>
+	src/scenes/play.lua:260: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:17:35 ==
+=========================
+
+Error: src/utils/load-files.lua:12: bad argument #1 to 'load' (string expected, got nil)
+stack traceback:
+	[C]: in function 'load'
+	src/utils/load-files.lua:12: in function 'callable'
+	libs/memoize.lua:57: in function '_lmark'
+	src/utils/load-files.lua:31: in function 'anims'
+	src/scenes/play.lua:114: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:18:32 ==
+=========================
+
+Error: src/utils/load-files.lua:12: attempt to call a nil value
+stack traceback:
+	src/utils/load-files.lua:12: in function 'callable'
+	libs/memoize.lua:57: in function '_lmark'
+	src/utils/load-files.lua:32: in function 'anims'
+	src/scenes/play.lua:163: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:19:38 ==
+=========================
+
+Error: src/utils/load-files.lua:12: attempt to call a nil value
+stack traceback:
+	src/utils/load-files.lua:12: in function 'callable'
+	libs/memoize.lua:57: in function '_lmark'
+	src/utils/load-files.lua:33: in function 'anims'
+	src/scenes/play.lua:163: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:20:17 ==
+=========================
+
+Error: libs/anim9.lua:150: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:150: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:20:49 ==
+=========================
+
+Error: libs/anim9.lua:150: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:150: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:24:51 ==
+=========================
+
+Error: libs/anim9.lua:117: attempt to index local 'markers' (a nil value)
+stack traceback:
+	libs/anim9.lua:117: in function 'anims'
+	src/scenes/play.lua:114: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:26:36 ==
+=========================
+
+Error: libs/anim9.lua:149: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:149: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:28:44 ==
+=========================
+
+Error: libs/anim9.lua:153: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:153: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:30:00 ==
+=========================
+
+Error: libs/anim9.lua:154: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:154: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:30:53 ==
+=========================
+
+Error: libs/anim9.lua:155: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:155: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:31:19 ==
+=========================
+
+Error: libs/anim9.lua:156: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:156: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:32:19 ==
+=========================
+
+Error: libs/anim9.lua:157: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:157: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:32:35 ==
+=========================
+
+Error: libs/anim9.lua:157: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:157: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:32:58 ==
+=========================
+
+Error: libs/anim9.lua:154: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:154: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:33:47 ==
+=========================
+
+Error: libs/anim9.lua:157: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/anim9.lua:157: in function 'new_track'
+	src/scenes/play.lua:168: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 02:59:48 ==
+=========================
+
+Error: src/systems/animation.lua:22: attempt to call method 'say' (a table value)
+stack traceback:
+	src/systems/animation.lua:22: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:295: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 03:27:29 ==
+=========================
+
+Error: src/systems/player-collision.lua:13: attempt to compare number with nil
+stack traceback:
+	src/systems/player-collision.lua:13: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:295: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 03:31:10 ==
+=========================
+
+Error: src/systems/player-collision.lua:13: attempt to compare number with nil
+stack traceback:
+	src/systems/player-collision.lua:13: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:297: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 04:01:49 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/play.lua:183: 'struct 158' has no member named 'player'
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/play.lua:182: in function 'f'
+	libs/signal.lua:43: in function 'emit'
+	src/systems/player-controller.lua:220: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:314: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 04:02:41 ==
+=========================
+
+Error: libs/timer.lua:48: src/scenes/play.lua:195: attempt to index field 'timer' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/play.lua:313: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 04:03:41 ==
+=========================
+
+Error: libs/timer.lua:48: libs/timer.lua:139: attempt to index local 'subject' (a number value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/play.lua:313: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 04:05:40 ==
+=========================
+
+Error: libs/timer.lua:48: libs/timer.lua:139: attempt to index local 'subject' (a number value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/play.lua:313: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 04:07:30 ==
+=========================
+
+Error: libs/timer.lua:48: libs/timer.lua:139: attempt to index local 'subject' (a number value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/play.lua:316: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 04:07:49 ==
+=========================
+
+Error: libs/timer.lua:48: libs/timer.lua:139: attempt to index local 'subject' (a number value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/play.lua:316: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 06:26:45 ==
+=========================
+
+Error: libs/timer.lua:159: attempt to perform arithmetic on local 's' (a nil value)
+stack traceback:
+	libs/timer.lua:159: in function 'during'
+	libs/timer.lua:45: in function 'update'
+	src/scenes/play.lua:363: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 07:03:00 ==
+=========================
+
+Error: Syntax error: src/scenes/play.lua:419: '=' expected near 'end'
+
+stack traceback:
+	[C]: at 0x7fa2023b4660
+	[C]: in function 'require'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 07:54:17 ==
+=========================
+
+Error: libs/timer.lua:48: libs/tiny.lua:465: System already belongs to a World.
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:50: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 07:58:24 ==
+=========================
+
+Error: src/systems/player-collision.lua:50: bad argument #1 to 'ipairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'ipairs'
+	src/systems/player-collision.lua:50: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:391: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 08:01:52 ==
+=========================
+
+Error: src/scenes/play.lua:400: attempt to index field 'world' (a nil value)
+stack traceback:
+	src/scenes/play.lua:400: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 08:05:50 ==
+=========================
+
+Error: src/scenes/play.lua:410: attempt to index global 'p' (a nil value)
+stack traceback:
+	src/scenes/play.lua:410: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 08:11:11 ==
+=========================
+
+Error: src/scenes/choice.lua:24: attempt to index field 'player' (a nil value)
+stack traceback:
+	src/scenes/choice.lua:24: in function 'switch'
+	src/scenes/play.lua:408: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 08:11:59 ==
+=========================
+
+Error: src/scenes/choice.lua:80: attempt to perform arithmetic on field 'sanity' (a nil value)
+stack traceback:
+	src/scenes/choice.lua:80: in function <src/scenes/choice.lua:50>
+	conf.lua:332: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 08:29:32 ==
+=========================
+
+Error: src/utils/load-files.lua:49: Could not open file assets/cutscenes/end01.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:49: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:61: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 09:01:02 ==
+=========================
+
+Error: src/systems/particle.lua:6: Could not open file assets/textures/particle.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/systems/particle.lua:6: in main chunk
+	[C]: in function 'require'
+	src/scenes/play.lua:101: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 09:05:09 ==
+=========================
+
+Error: src/systems/particle.lua:110: attempt to compare number with nil
+stack traceback:
+	src/systems/particle.lua:110: in function 'process'
+	src/systems/particle.lua:99: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:394: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 09:06:03 ==
+=========================
+
+Error: src/systems/particle.lua:110: attempt to compare number with table
+stack traceback:
+	src/systems/particle.lua:110: in function 'process'
+	src/systems/particle.lua:99: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:394: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 09:07:16 ==
+=========================
+
+Error: src/systems/particle.lua:110: attempt to compare number with table
+stack traceback:
+	src/systems/particle.lua:110: in function 'process'
+	src/systems/particle.lua:99: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:395: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 09:07:34 ==
+=========================
+
+Error: src/systems/particle.lua:49: attempt to index local 'particle' (a nil value)
+stack traceback:
+	src/systems/particle.lua:49: in function 'spawn_particle'
+	src/systems/particle.lua:115: in function 'process'
+	src/systems/particle.lua:99: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:395: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 09:08:16 ==
+=========================
+
+Error: src/systems/particle.lua:49: attempt to index local 'particle' (a nil value)
+stack traceback:
+	src/systems/particle.lua:49: in function 'spawn_particle'
+	src/systems/particle.lua:115: in function 'process'
+	src/systems/particle.lua:99: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:395: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 09:09:03 ==
+=========================
+
+Error: src/systems/particle.lua:52: attempt to index local 'particle' (a nil value)
+stack traceback:
+	src/systems/particle.lua:52: in function 'spawn_particle'
+	src/systems/particle.lua:118: in function 'process'
+	src/systems/particle.lua:102: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:395: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 11:04:18 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:326: __mul: Wrong argument type for left hand operand. (<cpml.vec3> expected)
+stack traceback:
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:326: in function '__mul'
+	src/systems/player-controller.lua:236: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:412: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 11:05:35 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:211: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/cpml/modules/mat4.lua:211: in function 'from_perspective'
+	src/camera.lua:86: in function 'update'
+	src/systems/render.lua:192: in function 'draw'
+	src/scenes/play.lua:435: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 12:06:58 ==
+=========================
+
+Error: src/utils/load-files.lua:49: Could not open file assets/cutscenes/phone-1.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:49: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:61: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 12:09:47 ==
+=========================
+
+Error: src/utils/load-files.lua:49: Could not open file assets/cutscenes/phone-1.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:49: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:61: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 14:45:43 ==
+=========================
+
+Error: src/utils/load-files.lua:49: Could not open file assets/cutscenes/cutscene-wake-1.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:49: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:63: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 14:51:29 ==
+=========================
+
+Error: libs/timer.lua:48: src/scenes/choice.lua:35: attempt to call field 'image' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:64: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 14:53:38 ==
+=========================
+
+Error: src/utils/load-files.lua:49: Could not open file assets/cutscenes/phone-1.png. Does not exist.
+stack traceback:
+	[C]: in function 'newImage'
+	src/utils/load-files.lua:49: in function 'callable'
+	libs/memoize.lua:57: in function 'texture'
+	src/scenes/cutscene.lua:70: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-23 15:00:02 ==
+=========================
+
+Error: libs/timer.lua:48: libs/timer.lua:93: src/scenes/cutscene.lua:15: attempt to index field 'player' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:48: in function 'update'
+	src/scenes/cutscene.lua:64: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 01:29:46 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/play.lua:364: attempt to index upvalue 'pattern' (a nil value)
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/play.lua:351: in function 'f'
+	libs/signal.lua:43: in function 'emit'
+	src/systems/ai.lua:130: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:498: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 01:30:41 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/play.lua:369: attempt to index upvalue 'pattern' (a nil value)
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/play.lua:356: in function 'f'
+	libs/signal.lua:43: in function 'emit'
+	src/systems/ai.lua:130: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:503: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 01:31:10 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/play.lua:369: attempt to index upvalue 'pattern' (a nil value)
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/play.lua:356: in function 'f'
+	libs/signal.lua:43: in function 'emit'
+	src/systems/ai.lua:130: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:503: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 01:31:25 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/play.lua:369: attempt to index upvalue 'pattern' (a nil value)
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/play.lua:356: in function 'f'
+	libs/signal.lua:43: in function 'emit'
+	src/systems/ai.lua:130: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:503: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 01:31:46 ==
+=========================
+
+Error: libs/timer.lua:93: src/scenes/play.lua:369: attempt to index upvalue 'pattern' (a nil value)
+stack traceback:
+	[C]: in function 'co'
+	libs/timer.lua:93: in function 'script'
+	src/scenes/play.lua:356: in function 'f'
+	libs/signal.lua:43: in function 'emit'
+	src/systems/ai.lua:130: in function 'process'
+	libs/tiny.lua:325: in function 'update'
+	libs/tiny.lua:774: in function 'update'
+	src/scenes/play.lua:503: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 02:36:37 ==
+=========================
+
+Error: src/systems/particle.lua:18: attempt to call method 'getDimensions' (a nil value)
+stack traceback:
+	src/systems/particle.lua:18: in function 'onAdd'
+	libs/tiny.lua:653: in function 'tiny_manageEntities'
+	libs/tiny.lua:715: in function 'refresh'
+	src/scenes/play.lua:451: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 03:18:51 ==
+=========================
+
+Error: src/systems/bullet-collision.lua:37: bad argument #1 to 'ipairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'ipairs'
+	src/systems/bullet-collision.lua:37: in function 'remove'
+	src/systems/bullet-collision.lua:48: in function 'onRemove'
+	libs/tiny.lua:546: in function 'tiny_manageSystems'
+	libs/tiny.lua:714: in function 'refresh'
+	src/scenes/play.lua:461: in function '__NULL__'
+	libs/gamestate.lua:54: in function 'switch'
+	src/scenes/play.lua:573: in function 'update'
+	conf.lua:370: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 03:23:17 ==
+=========================
+
+Error: Syntax error: src/systems/bullet-collision.lua:73: ')' expected near '('
+
+stack traceback:
+	[C]: at 0x7fbbfa337660
+	[C]: in function 'require'
+	src/scenes/play.lua:98: in function 'switch'
+	main.lua:96: in function 'load'
+	conf.lua:279: in function <conf.lua:250>
+	[C]: in function 'xpcall'
+
+=========================
+== 2017-04-24 04:21:05 ==
+=========================
+
+Error: src/scenes/play.lua:604: bad argument #3 to 'format' (no value)
+stack traceback:
+	[C]: in function 'format'
+	src/scenes/play.lua:604: in function 'draw'
+	main.lua:137: in function 'draw'
+	conf.lua:372: in function <conf.lua:250>
+	[C]: in function 'xpcall'
